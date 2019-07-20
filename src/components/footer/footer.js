@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css'
 
 import FadeIn from '../transitions/fade-in';
 
