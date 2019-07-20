@@ -136,9 +136,7 @@ export default class Board extends Component {
                     length={'30px'}
                     direction={'bottom'}
                     delay={'1s'}>
-                    <h4>Try to click on every Dog once. Once you click a dog the grid will shuffle.
-                        <br/>
-                        Try not to click the same Dog twice or the game will start all over!</h4>
+                    
                 </FadeIn>
                 <FadeIn 
                     in={true}
