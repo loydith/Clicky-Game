@@ -1,6 +1,25 @@
-.App-header{
-    /* background: rgb(198, 213, 230); */
-    background: url(/img/banner.jpg);
-    color: black;
-    height: 250px;
-} 
+ 
+.scores{
+    margin-top: -10px;
+}
+.titlebox {
+    background-image: url('/img/img.jpg');
+    width: 100%;
+    min-height: 180px;
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    color: rgb(201, 86, 10);
+    text-shadow: 0 0 5px #000;
+    margin-top: 0px;
+}
+
+.titlebox h1 {
+    
+    font-size: 3.5em;
+    /* margin-top: 100px; */
+}
+
+.titlebox p {
+    
+    font-size: 1.8em;
+}

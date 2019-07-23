@@ -33,18 +33,7 @@ body {
   font-weight: 300;
 }
 
-.character-box{
-  height: 65vh;
-  padding: 20px 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
 
-.character:hover {
-  transition: transform .2s ease-in-out;
-  transform: scale(1.03,1.03);
-}
 
 .Footer {
   position: fixed;
