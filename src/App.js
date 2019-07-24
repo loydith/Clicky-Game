@@ -7,9 +7,6 @@ import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 
 
-
-
-
 class App extends Component {
   
   state = {
@@ -33,7 +30,7 @@ class App extends Component {
   }
 
   clickCount = id => {
-    this.state.cards.find((o, i) => {
+    this.state.cards.map((o, i) => {
       if (o.id === id) {
         if(cards[i].count === 0){
           cards[i].count = cards[i].count + 1;
