@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
-
-export default function(props){
+const Header = (props) => {
   return (
   <div className="titlebox">
     <h1> Clicky Game!</h1>
@@ -13,3 +12,5 @@ export default function(props){
   </div>
   )
 };
+
+export default Header;
