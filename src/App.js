@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import cards from "./cards.json";
 import Card from "./components/Card";
-// import Footer from ".components/Footer";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 
@@ -14,7 +14,7 @@ class App extends Component {
     score: 0,
     highscore: 0
   };
-  
+
   gameOver = () => {
     if (this.state.score > this.state.highscore) {
       this.setState({highscore: this.state.score}, function() {
@@ -58,6 +58,7 @@ class App extends Component {
             image={card.image}
           />
         ))}
+        {/* <Footer/> */}
       </Wrapper>
     );
   }

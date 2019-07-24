@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const Header = props => (
+export default function(props){
+  return (
   <div className="titlebox">
     <h1> Clicky Game!</h1>
     <p> Click an image to begin!</p>
@@ -10,6 +11,5 @@ const Header = props => (
       Score: {props.score} | Highscore: {props.highscore}
     </h3>
   </div>
-);
-
-export default Header;
+  )
+};
