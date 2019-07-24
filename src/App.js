@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import cards from "./cards.json";
 import Card from "./components/Card";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 
